@@ -20,9 +20,9 @@ class Bihexa{
             value += (bi.charAt(i+2)-'0')*2;
             value += (bi.charAt(i+3)-'0')*1;
             if(value>=10)
-            hexa=(char)((value-10)+'A')+hexa;
+            hexa=hexa + (char)((value-10)+'A');
             else
-            hexa=hexa+value;
+            hexa=hexa + value;
         }
         System.out.println(hexa);
     }    

@@ -41,6 +41,6 @@ class matadd {
             System.out.println();
         }
 
-        3
+        
     }
 }

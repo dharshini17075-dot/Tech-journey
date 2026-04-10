@@ -1,5 +1,4 @@
-pu
-blic class matrotleft {
+public class matrotleft {
 static void leftRotation(int[] row, int k) {
         int n = row.length;
         int[] temp = new int[k];
